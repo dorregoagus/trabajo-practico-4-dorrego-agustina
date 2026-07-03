@@ -1,10 +1,12 @@
 {
   "name": "trabajo-practico-4-dorrego-agustina",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+  "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/dorregoagus/trabajo-practico-4-dorrego-agustina/issues"
   },
-  "homepage": "https://github.com/dorregoagus/trabajo-practico-4-dorrego-agustina#readme"
+  "homepage": "https://github.com/dorregoagus/trabajo-practico-4-dorrego-agustina#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.22.5",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
