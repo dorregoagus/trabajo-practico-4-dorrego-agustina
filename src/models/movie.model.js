@@ -28,6 +28,8 @@ const Movie = sequelize.define("Movie", {
         type: DataTypes.TEXT,
         allowNull: true
     }
+    }, {
+    timestamps: false
 });
 
 export default Movie;
